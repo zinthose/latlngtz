@@ -39,7 +39,7 @@ fmt.Printf("Got %q from %s", timeZoneId, sourceName)
 ## TODO
  - [ ] Add ability to RoundRobin the API calls to spread the calls across the available sources.
  - [ ] Add Tests 
- - [ ] Generate Alpha Release
+ - [X] Generate Alpha Release
 
 ## Known Issues
 * I'm still new to programming in Go (2 weeks of tinkering so far) so expect dragons.  If you see an issue please let me know, or better yet, send a pull request!
