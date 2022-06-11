@@ -17,6 +17,10 @@ var defaults latlngtz.Source
 func Init(apiKey string) error {
 	var err error
 	type empty struct{}
+
+	// Use "demo" apiKey if no API Key is given
+	defaults.APIKey = "demo"
+
 	source, err = source.Init(defaults, apiKey, reflect.TypeOf(empty{}).PkgPath(), Get)
 	return err
 }
