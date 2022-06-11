@@ -38,6 +38,7 @@ fmt.Printf("Got %q from %s", timeZoneId, sourceName)
 
 ## TODO
  - [ ] Add ability to RoundRobin the API calls to spread the calls across the available sources.
+ - [ ] Add Tests 
  - [ ] Generate Alpha Release
 
 ## Known Issues
